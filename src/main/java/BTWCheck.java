@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 
-public class Continent {
+public class BTWCheck {
 
     private String name;
     private ArrayList<Country> countries;
 
-    public Continent(String name) {
+    public BTWCheck(String name) {
         this.name = name;
         countries = new ArrayList<>();
     }
