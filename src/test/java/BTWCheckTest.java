@@ -9,10 +9,7 @@ class BTWCheckTest {
 
     @BeforeEach
     void init () {
-        europe = new BTWCheck("Europe");
-        europe.addCountry (new Country ("België", "BE"));
-        europe.addCountry (new Country ("Duitsland", "DE"));
-        europe.addCountry (new Country ("Frankrijk", "FR"));
+        europe = BTWCheck.getInstance();
     }
 
     @Test
